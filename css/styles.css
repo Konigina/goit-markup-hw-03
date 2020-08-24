@@ -1,0 +1,269 @@
+/* Палитра цветов макета
+h1-color: #FFFFFF;
+accent-color: #2196F3;
+main-color: #212121;
+logo-black:color: #000000;
+text-color: #757575;
+main-grey: #757575;
+*/
+
+/* fonts
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+h1
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+
+logo
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+
+button
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+text
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+text-title
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+h3
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+h3 heading
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+h3 p
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+
+footer
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+*/
+
+:root {
+	--text-color: #757575;
+	--white-color: #ffffff;
+	--accent-color: #2196f3;
+	--subheading-color: #212121;
+	--black: #000000;
+	--address: rgba(255, 255, 255, 0.6);
+	--portfolio-button: #f5f4fa;
+}
+
+* {
+	font-style: normal;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1, 71;
+	color: var(--text-color);
+	text-decoration: none;
+	letter-spacing: 0.03em;
+}
+
+/* header */
+
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--black);
+}
+
+.logo-blue {
+	color: var(--accent-color);
+}
+
+.logo-black {
+	color: var(--black);
+}
+
+.link {
+	text-decoration: none;
+}
+.link:hover,
+.link:focus {
+	color: var(--accent-color);
+}
+
+.nav {
+	color: var(--subheading-color);
+}
+.list-item {
+	list-style: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.active {
+	color: var(--accent-color);
+}
+
+.address-header {
+	color: var(--text-color);
+}
+
+.address-links {
+	color: var(--address);
+	text-decoration: none;
+}
+.address-text {
+	color: var(--white-color);
+	line-height: 1.71;
+}
+
+.background {
+	background-color: #2f303a;
+	line-height: 1.71;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--white-color);
+	letter-spacing: 0.06em;
+}
+
+.button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	color: var(--white-color);
+	background-color: var(--accent-color);
+	letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--accent-color);
+	background-color: var(--white-color);
+}
+.position {
+	align-items: center;
+	text-align: center;
+}
+
+.subtitle {
+	font-weight: 700;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--subheading-color);
+}
+.list-item-main {
+	list-style: none;
+}
+
+.heading {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	color: var(--subheading-color);
+}
+
+.image-heading {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	color: var(--subheading-color);
+}
+
+.image-text {
+	font-size: 16px;
+	line-height: 1.19;
+}
+
+.portfolio-image-heading {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--subheading-color);
+	letter-spacing: 0.06em;
+}
+
+.portfolio-image-subheading {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--text-color);
+	letter-spacing: 0.03em;
+}
+
+.filter-list {
+	list-style: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62x;
+	letter-spacing: 0.03em;
+}
+
+.filter-button {
+	color: var(--subheading-color);
+	background-color: var(--portfolio-button);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+	color: var(--white-color);
+	background-color: var(--accent-color);
+}
+
+h1 > span,
+h2 > span {
+	display: none;
+}
